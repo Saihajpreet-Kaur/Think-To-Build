@@ -1,184 +1,253 @@
 <div align="center">
 
-<img src="./assets/margin-motion-banner.gif" width="100%" alt="Animated MARGIN visual: metallic financial core, orbital coins and flowing money particles" />
+<img src="./assets/hero.svg" width="100%" alt="MARGIN: a metallic 3D money core with orbiting rupee coins over a moving perspective grid" />
 
-# MARGIN
-### Make room for what matters.
+<br/>
 
-**A money-first personal finance studio for tracking, planning and making better decisions.**
+<a href="#-financial-command-center"><img src="https://img.shields.io/badge/01-Dashboard-83B8FF?style=for-the-badge&labelColor=101722" alt="Dashboard" /></a>
+<a href="#-transaction-ledger"><img src="https://img.shields.io/badge/02-Ledger-D9A46C?style=for-the-badge&labelColor=101722" alt="Transaction ledger" /></a>
+<a href="#-cash-runway-forecast"><img src="https://img.shields.io/badge/03-Forecast-A78BFA?style=for-the-badge&labelColor=101722" alt="Forecast" /></a>
+<a href="#-decision-lens"><img src="https://img.shields.io/badge/04-Decision%20Lens-D9A46C?style=for-the-badge&labelColor=101722" alt="Decision Lens" /></a>
+<a href="#-budgets--savings-vaults"><img src="https://img.shields.io/badge/05-Budgets%20%26%20Vaults-B9F36A?style=for-the-badge&labelColor=101722" alt="Budgets and savings vaults" /></a>
 
-<img src="https://img.shields.io/badge/PROJECT-Personal%20Finance-101722?style=for-the-badge" alt="Personal finance project" />
-<img src="https://img.shields.io/badge/EXPERIENCE-3D%20%2B%20Motion-83B8FF?style=for-the-badge" alt="3D and motion experience" />
-<img src="https://img.shields.io/badge/RUNS-Locally-9FE870?style=for-the-badge" alt="Runs locally" />
+<img src="https://img.shields.io/badge/Next.js-15-F5F7F3?style=flat-square&logo=nextdotjs&logoColor=white&labelColor=101722" alt="Next.js 15" />
+<img src="https://img.shields.io/badge/React-19-83B8FF?style=flat-square&logo=react&logoColor=83B8FF&labelColor=101722" alt="React 19" />
+<img src="https://img.shields.io/badge/TypeScript-5-83B8FF?style=flat-square&logo=typescript&logoColor=83B8FF&labelColor=101722" alt="TypeScript" />
+<img src="https://img.shields.io/badge/Three.js-3D-E2E5EA?style=flat-square&logo=threedotjs&logoColor=white&labelColor=101722" alt="Three.js" />
+<img src="https://img.shields.io/badge/Currency-INR%20₹-D9A46C?style=flat-square&labelColor=101722" alt="Currency INR" />
+<img src="https://img.shields.io/badge/Languages-13-B9F36A?style=flat-square&labelColor=101722" alt="13 languages" />
+<img src="https://img.shields.io/badge/Data-stays%20in%20your%20browser-B9F36A?style=flat-square&labelColor=101722" alt="Data stays in your browser" />
 
-**No hosted demo yet — clone the project and run it locally.**
+**[Features](#-features)** · **[How money flows](#-how-money-flows)** · **[Try it in 60 seconds](#-try-it-in-60-seconds)** · **[Run it](#-run-locally)** · **[Tech](#%EF%B8%8F-tech-stack)**
 
 </div>
 
----
+<img src="./assets/divider.svg" width="100%" alt="" />
 
 ## ✦ What is MARGIN?
 
-MARGIN is a personal finance and expense-tracking web app built around one simple idea: don't just show people where their money went; help them understand what their money can do next.
+MARGIN is a personal finance studio built for India (₹). It doesn't just show where your money went — it helps you see **what your money can do next**: how much you keep each month, where your balance will be in 90 days, and what a purchase really costs *before* you make it.
 
-It combines practical money-management tools with an expressive visual identity: a spatial 3D financial environment, motion-led interactions, animated financial visualisations and a responsive interface.
+It all sits inside a cinematic dark interface: a 3D money universe on the landing page, motion-led pages, glowing charts and live counters.
 
-## ◈ Motion showcase
+> [!TIP]
+> The animations in this README are lightweight SVG files — crisp at any size, no GIFs. The real 3D scene, custom cursor and scroll effects run inside the app.
 
-The README includes looping visual previews so the repository has motion even before the app is launched. These are **illustrative README animations, not recordings of the running app**. The actual interactive 3D scene and cursor/scroll effects run in the application after starting the local development server.
+<img src="./assets/divider.svg" width="100%" alt="" />
 
-<div align="center">
+## ◈ How money flows
 
-<img src="./assets/margin-money-flow.gif" width="100%" alt="Animated illustration of money flowing from income through financial decisions into savings" />
+<img src="./assets/money-flow.svg" width="100%" alt="Money flow: income splits into tracked outflow, savings vaults and the margin you keep" />
 
-<sub>Money flow concept: income → decisions → savings.</sub>
+Every page reads from the same ledger, so a transaction you record shows up instantly in your dashboard, budgets, forecast and insights.
 
-</div>
-
-### In the running application
-
-- **Spatial 3D financial core:** metallic central object, orbital elements, particles, lighting and camera depth.
-- **Scroll interactions:** motion-led section transitions, parallax and financial storytelling.
-- **Pointer interactions:** cursor-reactive visuals and responsive hover states.
-- **Financial feedback:** animated counters, chart transitions, budget progress and savings updates.
-
-> GitHub README pages cannot execute the application's React components, JavaScript, WebGL or live Three.js scene. They can display animated image files such as GIFs. Run MARGIN locally to experience the real interactive animations.
+<img src="./assets/divider.svg" width="100%" alt="" />
 
 ## ✧ Features
 
-| Feature | What it does |
-|---|---|
-| **Financial Command Center** | Overview of available balance, income, expenses, savings rate and recent activity. |
-| **Transaction Ledger** | Add, edit, delete, search, filter and organise income and expenses. |
-| **Smart Budget Studio** | Create category budgets and monitor spending against limits. |
-| **Future Money Forecast** | Explore projected 30-, 60- and 90-day cashflow using scheduled activity and recurring items. |
-| **Savings Goals** | Set targets, add contributions and track progress. |
-| **Recurring Payments & Calendar** | Organise repeating bills, subscriptions, income and upcoming payment dates. |
-| **Decision Lens** | Simulate a planned purchase and understand its impact on available money, budgets and savings goals. |
-| **Money Intelligence** | Surface explainable spending patterns and useful insights from transaction history. |
-| **Language Selector** | Indian language options with Punjabi listed first, subject to the translation dictionaries present in the build. |
-| **Responsive Interface** | Layouts designed for desktop, tablet and mobile screens. |
+### 📊 Financial Command Center
 
-## ✦ Signature experience: Decision Lens
+<table>
+<tr>
+<td width="55%"><img src="./assets/dashboard.svg" width="100%" alt="Financial Command Center: an orbit gauge of available margin beside inflow, outflow and retention cards" /></td>
+<td>
 
-Before making a purchase, enter its amount and category to compare the impact on your available balance, category budget and savings progress. Use the result to compare buying now, waiting or skipping the purchase.
+Your month at a glance:
 
-## 🧭 Application sections
+- **Available margin** in a glowing orbit gauge
+- Income, expenses and **retention (savings) rate**, compared with last month
+- 6-month **inflow vs outflow** chart
+- Spending by **category**, **daily spending rhythm** and **top merchants**
+- Recent activity and **upcoming bills**
+- Step back through previous months
+
+</td>
+</tr>
+</table>
+
+### 📒 Transaction Ledger
+
+Add, edit and delete income and expenses with 18 Indian-friendly categories. **Search**, filter by type or category, sort by date or amount, and **export to CSV**. A **Record Event** button in the top bar lets you add a transaction from any page.
+
+### 📈 Cash Runway Forecast
+
+<table>
+<tr>
+<td>
+
+See where your balance is heading over **30, 60 or 90 days**.
+
+- Uses your scheduled salary, rent, subscriptions and SIPs
+- Shows today's balance, the projected balance and the **lowest point**
+- Warns you if your balance is about to dip **below zero**
+- Lists every upcoming payment in the window
+
+</td>
+<td width="55%"><img src="./assets/forecast.svg" width="100%" alt="Cash runway forecast: a projected balance curve drawing across 30, 60 and 90 days" /></td>
+</tr>
+</table>
+
+### 🔍 Decision Lens
+
+<table>
+<tr>
+<td width="55%"><img src="./assets/decision-lens.svg" width="100%" alt="Decision Lens: a purchase amount compared across Buy Now, Save 30 Days and Direct to Vault scenarios" /></td>
+<td>
+
+**Before you spend, simulate it.** Enter an amount and a category, and MARGIN compares three choices:
+
+- ✅ **Buy now** — what's left of your margin, and the hit to that category's budget
+- ⏳ **Save 30 days** — wait and keep this month intact
+- 🏦 **Direct to vault** — put the money into a savings goal instead
+
+You can also spread a purchase over monthly instalments and see how much it delays a goal.
+
+</td>
+</tr>
+</table>
+
+### 🐷 Budgets & Savings Vaults
+
+<table>
+<tr>
+<td>
+
+**Budget Studio** — set a monthly limit for each category. Progress bars change colour as you spend, and MARGIN flags categories that are **near capacity (80%)** or **over budget (100%)**.
+
+**Savings Vaults** — create goals with an icon, colour and target date. Add or withdraw money, watch progress fill up, and see the **amount left** and an **estimated finish month**.
+
+</td>
+<td width="55%"><img src="./assets/budgets-goals.svg" width="100%" alt="Budget Studio bars filling toward their limits beside a 3D piggy vault collecting coins for savings goals" /></td>
+</tr>
+</table>
+
+### 🧩 And also
+
+| | Feature | What it does |
+|:-:|---|---|
+| 📅 | **Calendar & recurring payments** | Weekly, monthly or yearly bills and income, a monthly calendar of due dates, and pause / resume |
+| 💡 | **Money Intelligence** | Plain-language insights from your history: savings rate, spending jumps, dining, subscriptions and budget warnings |
+| 🌐 | **13 languages** | ਪੰਜਾਬੀ (default), हिन्दी, বাংলা, தமிழ், తెలుగు, मराठी, ગુજરાતી, ಕನ್ನಡ, മലയാളം, ଓଡ଼ିଆ, اردو (right-to-left), অসমীয়া and English |
+| ⚙️ | **Settings** | Switch language, see how much data you have, and reset to the demo data |
+| 🌌 | **3D landing page** | Three.js money universe, orbiting coins, a 3D piggy vault, scroll storytelling and a custom cursor |
+| 📱 | **Responsive** | Collapsible sidebar on desktop, bottom navigation on mobile |
+
+<details>
+<summary><b>🧭 App map</b> (click to open)</summary>
+<br/>
 
 ```text
 MARGIN
-├── Home
-│   ├── Cinematic hero
-│   ├── 3D financial visualisation
-│   └── Product storytelling
-│
-└── Money Studio
-    ├── Overview
-    ├── Transactions
-    ├── Budgets
-    ├── Forecast
-    ├── Goals
-    ├── Calendar & Recurring Payments
-    ├── Decision Lens
-    ├── Insights
-    └── Settings & Language
+├── Home ─ cinematic 3D landing page
+└── Studio
+    ├── 01 Overview        ← Financial Command Center
+    ├── 02 Transactions
+    ├── 03 Budgets
+    ├── 04 Forecast
+    ├── 05 Vaults & Goals
+    ├── 06 Calendar
+    ├── 07 Intelligence
+    ├── 08 Decision Lens
+    └── 09 Settings
 ```
 
-## 🛠️ Technology
+</details>
 
-The project is built as a modern React-based web application. Confirm exact packages and versions against `package.json` in the repository.
+<img src="./assets/divider.svg" width="100%" alt="" />
 
-| Area | Technology |
-|---|---|
-| Web application | Next.js / React |
-| Language | TypeScript |
-| Styling | Tailwind CSS |
-| 3D visuals | Three.js / React Three Fiber |
-| Motion | Motion for React; GSAP where used |
-| Charts | Recharts |
-| State | Zustand |
-| Validation | Zod |
-| Icons | Lucide React |
+## 🎬 Try it in 60 seconds
+
+<details>
+<summary><b>A quick tour for demos and judges</b> (click to open)</summary>
+<br/>
+
+1. Open the landing page and scroll — the 3D money universe and piggy vault react as you go.
+2. Press **Enter Command** to open the studio. It starts with realistic demo data, so nothing is empty.
+3. On **Overview**, check the margin orbit and the 6-month chart.
+4. Click **Record Event** in the top bar and add a ₹2,000 dining expense — watch the numbers update.
+5. Open **Budgets** and see the Dining bar turn to a warning.
+6. Open **Forecast** and switch between **30D / 60D / 90D**.
+7. Open **Decision Lens**, enter ₹35,000 and compare the three choices.
+8. Change the language from the top bar — try ਪੰਜਾਬੀ or हिन्दी.
+
+</details>
+
+<img src="./assets/divider.svg" width="100%" alt="" />
 
 ## 🚀 Run locally
 
-### Requirements
-
-- Node.js (use a version compatible with the project's Next.js version)
-- npm
-- Git
-
-### 1. Clone the repository
+> [!NOTE]
+> No hosted demo yet. The app lives in the `margin-app` folder.
 
 ```bash
-git clone https://github.com/<YOUR_GITHUB_USERNAME>/<YOUR_REPOSITORY_NAME>.git
-cd <YOUR_REPOSITORY_NAME>
-```
-
-### 2. Install dependencies
-
-```bash
+git clone https://github.com/<your-username>/Think-To-Build.git
+cd Think-To-Build/margin-app
 npm install
-```
-
-### 3. Start the development server
-
-```bash
 npm run dev
 ```
 
-Open **http://localhost:3000**.
+Open **http://localhost:3000** for the landing page, or go straight to the studio at **http://localhost:3000/app**.
 
-### 4. Build for production
+<details>
+<summary><b>📦 Production build</b></summary>
+<br/>
 
 ```bash
 npm run build
 npm run start
 ```
 
-Check the project's `package.json` for the exact scripts and any environment variables required by your implementation. Do not commit secrets or real financial credentials.
+</details>
 
-## 📱 Responsive experience
+## 🛠️ Tech stack
 
-MARGIN is designed to adapt across desktop, tablet and mobile. The 3D experience may use reduced particle counts or simplified effects on smaller devices to preserve smooth performance while retaining its visual identity.
+| Area | Built with |
+|---|---|
+| App | Next.js 15 · React 19 · TypeScript |
+| Styling | Tailwind CSS 4 |
+| 3D | Three.js |
+| Motion | Motion for React |
+| Charts | Recharts |
+| State | Zustand (saved in your browser) |
+| Forms & UI | Zod · Radix UI · Lucide icons · Sonner toasts · date-fns |
 
-## 🌐 Language support
+<details>
+<summary><b>📁 Project structure</b></summary>
+<br/>
 
-The language selector is intended to place Punjabi first, followed by other major Indian languages and English. Translation coverage depends on the dictionaries shipped with the current code. Review every page in each language before describing the translation as complete.
+```text
+margin-app/src
+├── app/              # landing page (/) and studio (/app)
+├── components/
+│   ├── app/          # studio pages: overview, transactions, budgets, …
+│   └── core/         # 3D scenes, orbit gauge, page heroes, cursor, language switcher
+├── lib/              # money maths, demo data, translations
+├── store/            # Zustand store, saved to local storage
+└── types/            # transaction, budget, goal and recurring types
+```
 
-## 🔒 Demo data & privacy
+</details>
 
-- Use sample/demo records when presenting the project.
-- In a local-first configuration, data may be stored in browser storage rather than connected to real bank accounts.
-- Do not enter real banking credentials or sensitive financial information into a competition build.
-- Check the actual persistence implementation in the source before making privacy or security claims.
+## 🔒 Privacy
+
+- Your data is stored **only in your browser** (local storage) — there is no server, account or bank connection.
+- Amounts are stored as whole paise, so totals never pick up rounding errors.
+- Please don't type real bank passwords or card numbers into a demo build.
 
 ## 🗺️ Roadmap
 
-- [ ] Add screenshots or short screen recordings captured from the actual running application.
-- [ ] Verify every feature and financial calculation end-to-end.
-- [ ] Verify all language translations across every page.
-- [ ] Complete accessibility and reduced-motion checks.
-- [ ] Add automated unit and browser tests.
+- [ ] Screen recordings from the running app
+- [ ] Automated unit and browser tests
+- [ ] Full translation review for every page
+- [ ] Accessibility and reduced-motion pass across the studio
 
-## 🤝 Contributing
-
-1. Fork the repository.
-2. Create a branch: `git checkout -b feature/your-feature`.
-3. Commit your changes: `git commit -m "Describe your change"`.
-4. Push your branch and open a pull request.
-
-## 📄 License
-
-Add a licence file before accepting external contributions. Until a licence is added, all rights remain with the repository owner.
-
----
+<img src="./assets/divider.svg" width="100%" alt="" />
 
 <div align="center">
 
 ### MARGIN
 **See every move. Understand every possibility.**
 
-<sub>Built to make money management clearer, more tangible and more engaging.</sub>
+<sub>Made for Think-To-Build · ₹ first, India first.</sub>
 
 </div>
